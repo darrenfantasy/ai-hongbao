@@ -10,7 +10,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 # 扫码登录
-bot = Bot(cache_path=True)
+bot = Bot(console_qr=-2,cache_path=True)
 
 """
 默认消息处理方法
